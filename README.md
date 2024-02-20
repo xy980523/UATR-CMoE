@@ -14,8 +14,10 @@ which has been published on **Expert Systems with Applications**.
     <img src="figs/results.jpg" alt="Second Figure" width="250" />
 </div>
 
-In addition to the model architecture (cmoe_model.py), this repository provides pre-extracted features of the Shipsear test set, along with corresponding testing code.     
-I can ensure that the optimal model mentioned in the paper, which has an 86.21% 9-class accuracy, is entirely reproducible.
+
+
+        
+In addition to the model architecture (cmoe_model.py), this repository offers pre-extracted features of the Shipsear test set, accompanied by corresponding testing code.
 
 
 ## Steps of Inference
