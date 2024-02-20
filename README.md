@@ -11,7 +11,7 @@ which has been published on **Expert Systems with Applications**.
 
 <div style="display: flex; justify-content: space-between;">
     <img src="figs/framework.jpg" alt="First Figure" width="400" />
-    <img src="figs/results.jpg" alt="Second Figure" width="300" />
+    <img src="figs/results.jpg" alt="Second Figure" width="250" />
 </div>
 
 
