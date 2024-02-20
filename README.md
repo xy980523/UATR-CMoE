@@ -14,7 +14,8 @@ which has been published on **Expert Systems with Applications**.
     <img src="figs/results.jpg" alt="Second Figure" width="250" />
 </div>
 
-
+<br/>
+<br/>
 
         
 In addition to the model architecture (cmoe_model.py), this repository offers pre-extracted features of the Shipsear test set, accompanied by corresponding testing code.
