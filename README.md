@@ -9,12 +9,13 @@ which has been published on **Expert Systems with Applications**.
 **DOI: https://doi.org/10.1016/j.eswa.2024.123431**      
 **Arxiv: https://arxiv.org/abs/2402.11919**   
 
+<br/>
+
 <div style="display: flex; justify-content: space-between;">
     <img src="figs/framework.jpg" alt="First Figure" width="400" />
     <img src="figs/results.jpg" alt="Second Figure" width="250" />
 </div>
 
-<br/>
 <br/>
 
         
