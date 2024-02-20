@@ -24,4 +24,33 @@ In addition to the model architecture (cmoe_model.py), this repository offers pr
 
 ## Steps of Inference
 
+#### 1. Download pre-extracted features    
+Download link:    
+Save features to your own path:    
+
+#### 2. Load models and print results
+
+```
+python get_confusion.py /path_features/
+```
+
+#### 3. (Optional) Reproduce the confusion matrix   
+
+```
+python draw_confusion.py /path_features/
+```
+
+## Citation
+
+```
+@article{xie2024unraveling,
+  title={Unraveling complex data diversity in underwater acoustic target recognition through convolution-based mixture of experts},
+  author={Xie, Yuan and Ren, Jiawei and Xu, Ji},
+  journal={Expert Systems with Applications},
+  pages={123431},
+  year={2024},
+  publisher={Elsevier}
+}
+```
+
 
