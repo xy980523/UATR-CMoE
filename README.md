@@ -9,8 +9,10 @@ which has been published on **Expert Systems with Applications**.
 **DOI: https://doi.org/10.1016/j.eswa.2024.123431**      
 **Arxiv: https://arxiv.org/abs/2402.11919**   
 
-![framework](figs/framework.jpg){:height="50%" width="50%"}
-![Confusion matrix](figs/results.jpg){:height="50%" width="50%"}
+<div>
+    <img src="figs/framework.jpg" alt="First Figure" width="400" />
+    <img src="figs/results.jpg" alt="Second Figure" width="400" />
+</div>
 
 
 ## TBC
