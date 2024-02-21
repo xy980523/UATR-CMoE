@@ -19,7 +19,7 @@ which has been published on **Expert Systems with Applications**.
 <br/>
 
         
-In addition to the model architecture (cmoe_model.py), this repository offers pre-extracted features of the Shipsear test set, accompanied by corresponding testing code.
+In addition to the model architecture **(cmoe_model.py)**, this repository offers pre-extracted features of the Shipsear test set, accompanied by corresponding testing code.
 
 
 ## Steps of Inference
@@ -32,8 +32,8 @@ pip install -r requirements.txt
 
 #### 1. Download pre-extracted features and pre-trained checkpoint  
 Download link:    
-1. https://github.com/xy980523/UATR-CMoE/releases/download/features/features.zip
-2. https://github.com/xy980523/UATR-CMoE/releases/download/checkpoint/best_model.ckpt   
+Pre-extracted features: https://github.com/xy980523/UATR-CMoE/releases/download/features/features.zip
+Pre-trained checkpoint: https://github.com/xy980523/UATR-CMoE/releases/download/checkpoint/best_model.ckpt   
 
 Save features to your own path (/path_features):   
 ```
