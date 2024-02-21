@@ -45,7 +45,7 @@ And make sure ``best_model.ckpt'' is in the UATR-CMoE folder.
 #### 2. Load models and print results
 
 ```
-python get_confusion.py /path_features
+python test.py /path_features
 ```
 It will produce the accuracy and confusion matrix on the Shipsear test set.
 
