@@ -39,7 +39,7 @@ Save features to your own path (/path_features):
 ```
 mkdir -p /path_features
 unzip features.zip -d /path_features
-``
+```
 And make sure ``best_model.ckpt'' is in the UATR-CMoE folder.    
 
 #### 2. Load models and print results
