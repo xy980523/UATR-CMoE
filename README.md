@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 #### 1. Download pre-extracted features and pre-trained checkpoint  
 Download link:    
-Pre-extracted features: https://github.com/xy980523/UATR-CMoE/releases/download/features/features.zip
+Pre-extracted features: https://github.com/xy980523/UATR-CMoE/releases/download/features/features.zip    
 Pre-trained checkpoint: https://github.com/xy980523/UATR-CMoE/releases/download/checkpoint/best_model.ckpt   
 
 Save features to your own path (/path_features):   
@@ -40,7 +40,7 @@ Save features to your own path (/path_features):
 mkdir -p /path_features
 unzip features.zip -d /path_features
 ``
-And make sure ``best_model.ckpt'' is in the UATR-CMoE folder.
+And make sure ``best_model.ckpt'' is in the UATR-CMoE folder.    
 
 #### 2. Load models and print results
 
