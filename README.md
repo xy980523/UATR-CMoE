@@ -23,28 +23,38 @@ In addition to the model architecture (cmoe_model.py), this repository offers pr
 
 
 ## Steps of Inference
-
-#### 1. Download pre-extracted features    
-Download link: https://github.com/xy980523/UATR-CMoE/releases/download/features/features.zip
-
-Save features to your own path:   
 ```
-cd /path_features
+git clone https://github.com/xy980523/UATR-CMoE.git    
+cd UATR-CMoE
+pip install -r requirements.txt
+```
+
+
+#### 1. Download pre-extracted features and pre-trained checkpoint  
+Download link:    
+1. https://github.com/xy980523/UATR-CMoE/releases/download/features/features.zip
+2. https://github.com/xy980523/UATR-CMoE/releases/download/checkpoint/best_model.ckpt   
+
+Save features to your own path (/path_features):   
+```
+mkdir -p /path_features
 unzip features.zip -d /path_features
 ``
-
+And make sure ``best_model.ckpt'' is in the UATR-CMoE folder.
 
 #### 2. Load models and print results
 
 ```
 python get_confusion.py /path_features
 ```
+It will produce the accuracy and confusion matrix on the Shipsear test set.
 
 #### 3. (Optional) Reproduce the confusion matrix   
 
 ```
 python draw_confusion.py
 ```
+It will produce the confusion matrix heat map (see Fig. 5 in the paper).
 
 ## Citation
 
