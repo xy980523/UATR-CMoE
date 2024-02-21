@@ -25,19 +25,25 @@ In addition to the model architecture (cmoe_model.py), this repository offers pr
 ## Steps of Inference
 
 #### 1. Download pre-extracted features    
-Download link:    
-Save features to your own path:    
+Download link: https://github.com/xy980523/UATR-CMoE/releases/download/features/features.zip
+
+Save features to your own path:   
+```
+cd /path_features
+unzip features.zip -d /path_features
+``
+
 
 #### 2. Load models and print results
 
 ```
-python get_confusion.py /path_features/
+python get_confusion.py /path_features
 ```
 
 #### 3. (Optional) Reproduce the confusion matrix   
 
 ```
-python draw_confusion.py /path_features/
+python draw_confusion.py
 ```
 
 ## Citation
